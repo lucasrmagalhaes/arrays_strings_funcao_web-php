@@ -17,9 +17,11 @@ $contasCorrentes = [
     ]
 ];
 
-$contasCorrentes['123'] = sacar($contasCorrentes['123'], 500);
-$contasCorrentes['789'] = sacar($contasCorrentes['789'], 500);
+$contasCorrentes['123'] = sacar($contasCorrentes['123'], 100);
+$contasCorrentes['789'] = sacar($contasCorrentes['789'], 100);
 $contasCorrentes['123'] = depositar($contasCorrentes['123'], 500);
+
+unset($contasCorrentes['456']);
 
 titularComLetrasMaisculas($contasCorrentes['123']);
 
