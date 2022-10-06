@@ -1,5 +1,9 @@
 <?php
 
+function exibeMensagem($mensagem) {
+    echo $mensagem . PHP_EOL;
+}
+
 $contasCorrentes = [
     123 => [
         'titular' => 'Lucas', 
@@ -19,5 +23,5 @@ $contasCorrentes['123']['saldo'] -= 500;
 $contasCorrentes['789']['saldo'] -= 500;
 
 foreach ($contasCorrentes as $cpf => $conta) {
-    echo $cpf . ' - ' . $conta['titular'] . ' ' . $conta['saldo'] . PHP_EOL;
+    exibeMensagem($cpf . ' - ' . $conta['titular'] . ' ' . $conta['saldo']);
 }
