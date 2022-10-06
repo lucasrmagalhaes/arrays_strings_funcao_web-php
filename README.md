@@ -18,3 +18,5 @@
 extension=mbstring
 extension_dir = "ext"
 ```
+
+[mbstring](https://www.php.net/manual/pt_BR/book.mbstring.php)
