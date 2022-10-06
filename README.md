@@ -12,3 +12,9 @@
 - Caso o arquivo a ser incluído não seja encontrado, require para a execução do programa enquanto include permite que continue.
 
 [Erros](https://www.php.net/manual/en/errorfunc.constants.php)
+
+**Habilitando as extensões: mbstring e dir**
+```
+extension=mbstring
+extension_dir = "ext"
+```
