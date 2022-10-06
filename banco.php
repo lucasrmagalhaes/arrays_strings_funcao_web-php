@@ -24,5 +24,7 @@ $contasCorrentes['123'] = depositar($contasCorrentes['123'], 500);
 titularComLetrasMaisculas($contasCorrentes['123']);
 
 foreach ($contasCorrentes as $cpf => $conta) {
-    exibeMensagem("$cpf {$conta['titular']} {$conta['saldo']}");
+    ['titular' => $titular, 'saldo' => $saldo] = $conta;
+
+    exibeMensagem("$cpf $titular $saldo");
 }
