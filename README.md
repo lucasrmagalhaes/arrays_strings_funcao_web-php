@@ -20,3 +20,9 @@ extension_dir = "ext"
 ```
 
 [mbstring](https://www.php.net/manual/pt_BR/book.mbstring.php)
+
+**Servidor**
+```
+php -S localhost:8080
+http://localhost:8080/banco.php
+```
