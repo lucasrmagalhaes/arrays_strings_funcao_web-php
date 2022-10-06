@@ -5,3 +5,5 @@
 
 **Subrotinas vs Funções**
 - Uma função retorna um valor, ou seja, a chamada da função representa um valor após sua execução. Uma subrotina apenas executa um código isolado.
+
+[Strings ](https://www.php.net/manual/en/language.types.string.php)
