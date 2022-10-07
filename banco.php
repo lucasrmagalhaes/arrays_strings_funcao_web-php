@@ -25,8 +25,8 @@ unset($contasCorrentes['456']);
 
 titularComLetrasMaisculas($contasCorrentes['123']);
 
-foreach ($contasCorrentes as $cpf => $conta) {
-    ['titular' => $titular, 'saldo' => $saldo] = $conta;
-
-    exibeMensagem("$cpf $titular $saldo");
-}
+echo "<ul>";
+    foreach ($contasCorrentes as $cpf => $conta) {
+        exibeConta($conta);
+    }
+echo "</ul>";
